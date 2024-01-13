@@ -17,26 +17,26 @@ int main()
 	cout<< "imprimimiendo letra '65' "<<letra<<endl;
 	//---vocales mayuscula y minuscula con acento ---
 	//----Minusculas----
-	vocal_min = 133; // ASCII es la à
+	vocal_min = 133; // ASCII es la Ã 
 	cout<< "imprimimiendo letra '133' "<<vocal_min<<endl;
-	vocal_min = 130; // ASCII es la è
+	vocal_min = 130; // ASCII es la Ã¨
 	cout<< "imprimimiendo letra '130' "<<vocal_min<<endl;
-	vocal_min = 141; // ASCII es la ì
+	vocal_min = 141; // ASCII es la Ã¬
 	cout<< "imprimimiendo letra '141' "<<vocal_min<<endl;
-	vocal_min = 149; // ASCII es la ò
+	vocal_min = 149; // ASCII es la Ã²
 	cout<< "imprimimiendo letra '149' "<<vocal_min<<endl;
-	vocal_min = 151; // ASCII es la ù
+	vocal_min = 151; // ASCII es la Ã¹
 	cout<< "imprimimiendo letra '151' "<<vocal_min<<endl;
 	//----Mayusculas----
-	vocal_may = 181; // ASCII es la À
+	vocal_may = 181; // ASCII es la Ã€
 	cout<< "imprimimiendo letra '181' "<<vocal_may<<endl;
-	vocal_may = 212; // ASCII es la È
+	vocal_may = 212; // ASCII es la Ãˆ
 	cout<< "imprimimiendo letra '212' "<<vocal_may<<endl;
-	vocal_may = 214; // ASCII es la Ì
+	vocal_may = 214; // ASCII es la ÃŒ
 	cout<< "imprimimiendo letra '214' "<<vocal_may<<endl;
-	vocal_may = 227; // ASCII es la Ò
+	vocal_may = 227; // ASCII es la Ã’
 	cout<< "imprimimiendo letra '227' "<<vocal_may<<endl;
-	vocal_may = 233; // ASCII es la Ù
+	vocal_may = 233; // ASCII es la Ã™
 	cout<< "imprimimiendo letra '233' "<<vocal_may<<endl;
 	//--- arroba "@" ---
 	arro = 64; // ASCII es la "@"
@@ -44,6 +44,13 @@ int main()
 	//--- barra invertida "\" 
 	arro = 92; // ASCII es la "\"
 	cout<< "imprimimiendo letra '92' "<<arro<<endl;
+	/*el char nombre [], es para mostrar un nombre dentro de los cochetes, [] = podemos decir que caracter queremos que muestre segun la cantidad de caracteres*/
+	char nombre[] = "JOSE";
+		cout<<"IMPRIMENDO EL NOMBRE: "<< nombre<<endl;
+		cout<<"IMPRIMENDO EL NOMBRE[0] "<< nombre[0]<<endl;
+		cout<<"IMPRIMENDO EL NOMBRE[1] "<< nombre[1]<<endl;
+		cout<<"IMPRIMENDO EL NOMBRE[2] "<< nombre[2]<<endl;
+		cout<<"IMPRIMENDO EL NOMBRE[3] "<< nombre[3]<<endl;
 	
 	return 0;
 }
