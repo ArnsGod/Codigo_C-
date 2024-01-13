@@ -51,6 +51,13 @@ int main()
 		cout<<"IMPRIMENDO EL NOMBRE[1] "<< nombre[1]<<endl;
 		cout<<"IMPRIMENDO EL NOMBRE[2] "<< nombre[2]<<endl;
 		cout<<"IMPRIMENDO EL NOMBRE[3] "<< nombre[3]<<endl;
-	
+		//Convertir en minusculas
+		/*En esta ocacion se hace para cada uno la conversion a minuscula*/
+		nombre[0]='j';
+		nombre[1]='o';
+		nombre[2]='s';
+		nombre[3]='e';
+		cout<<"IMPRIMENDO EL NOMBRE: "<< nombre<<endl;
 	return 0;
 }
+
