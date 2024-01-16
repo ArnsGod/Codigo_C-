@@ -22,17 +22,17 @@ int main(int argc, char *argv[]) {
 		/*Toma de los casos segun el valor dado en la variable opcion*/
 		switch(opcion)//Menu 
 		{
-		case 1://Opcion uno
-			cout<<"ELIGIO LA OPCION 1"<<endl;
-			break;
-		case 2://Opcion dos
-			cout<<"ELIGIO LA OPCION 2"<<endl;
-			break;
-		case 0://Opcion cero
-			cout<<"SALIENDO....."<<endl;
-			break;
-			/*Default lo utilizamos si el usuario no ingresa una opcion que se encuantra disponible*/
-		default:cout<<"NO INGRESO UNA OPCION VALIDA"<<endl;
+			case 1://Opcion uno
+				cout<<"ELIGIO LA OPCION 1"<<endl;
+				break;
+			case 2://Opcion dos
+				cout<<"ELIGIO LA OPCION 2"<<endl;
+				break;
+			case 0://Opcion cero
+				cout<<"SALIENDO....."<<endl;
+				break;
+				/*Default lo utilizamos si el usuario no ingresa una opcion que se encuantra disponible*/
+			default:cout<<"NO INGRESO UNA OPCION VALIDA"<<endl;
 		};
 	};
 	return 0;
